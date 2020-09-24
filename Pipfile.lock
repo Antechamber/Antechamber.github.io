@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "99c4b9ec1b8891ff787677276760beb6d6d4919c55660da1c713682156a6086c"
+            "sha256": "87b6ddab30e6d69d34c60fbf5b0ba64e3f5f64b83306a343241f7004e99300c9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,21 +16,21 @@
         ]
     },
     "default": {
-        "asgiref": {
-            "hashes": [
-                "sha256:7e51911ee147dd685c3c8b805c0ad0cb58d360987b56953878f8c06d2d1c6f1a",
-                "sha256:9fc6fb5d39b8af147ba40765234fa822b39818b12cc80b35ad9b0cef3a476aed"
-            ],
-            "markers": "python_version >= '3.5'",
-            "version": "==3.2.10"
-        },
         "django": {
             "hashes": [
-                "sha256:59c8125ca873ed3bdae9c12b146fbbd6ed8d0f743e4cf5f5817af50c51f1fc2f",
-                "sha256:b5fbb818e751f660fa2d576d9f40c34a4c615c8b48dd383f5216e609f383371f"
+                "sha256:97886b8a13bbc33bfeba2ff133035d3eca014e2309dff2b6da0bdfc0b8656613",
+                "sha256:e900b73beee8977c7b887d90c6c57d68af10066b9dac898e1eaf0f82313de334"
             ],
             "index": "pypi",
-            "version": "==3.1.1"
+            "version": "==2.0.7"
+        },
+        "include": {
+            "hashes": [
+                "sha256:37c2c6854f145bce050e75847c8da17039bdfae76d2c7e95bf531eaad2148e69",
+                "sha256:58c7d81ba82b92ed432919aaa019bdde7258c569bfd85f1ea44a525576b20529"
+            ],
+            "index": "pypi",
+            "version": "==0.2.2"
         },
         "pytz": {
             "hashes": [
@@ -38,14 +38,6 @@
                 "sha256:c35965d010ce31b23eeb663ed3cc8c906275d6be1a34393a1d73a41febf4a048"
             ],
             "version": "==2020.1"
-        },
-        "sqlparse": {
-            "hashes": [
-                "sha256:022fb9c87b524d1f7862b3037e541f68597a730a8843245c349fc93e1643dc4e",
-                "sha256:e162203737712307dfe78860cc56c8da8a852ab2ee33750e33aeadf38d12c548"
-            ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-            "version": "==0.3.1"
         }
     },
     "develop": {}

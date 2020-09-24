@@ -1,7 +1,7 @@
-"""tryDjango URL Configuration
+"""djangoTestProject URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/3.1/topics/http/urls/
+    https://docs.djangoproject.com/en/2.0/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -13,9 +13,15 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from django.contrib import admin
 from django.urls import path
+from pages.views import home_view, scaler_app_view, input_chordData_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('scaler/', scaler_app_view),
+    path('input_chordData/', input_chordData_view),
+    path('', home_view, name='home_view'),
+
 ]
